@@ -1,0 +1,107 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(22px);
+  background: rgba(12, 25, 34, 0.65);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nav-wrapper {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: 700;
+  color: white;
+}
+
+.logo span {
+  color: var(--primary);
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+.demo-btn {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #ffc801, #ff9932);
+  color: #172b36;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.demo-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 200, 1, 0.35);
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .demo-btn {
+    padding: 10px 20px;
+  }
+}
+
+/* Active Navigation */
+
+.active-link {
+  color: #FFC801 !important;
+  position: relative;
+  font-weight: 700;
+}
+
+.active-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 2px;
+  background: #FFC801;
+  border-radius: 10px;
+  animation: slide 0.3s ease;
+}
+
+@keyframes slide {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Navbar after scrolling */
+
+.navbar.scrolled {
+  background: rgba(10, 23, 32, 0.92);
+  backdrop-filter: blur(24px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+}

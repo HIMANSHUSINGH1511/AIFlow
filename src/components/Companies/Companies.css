@@ -1,0 +1,51 @@
+.companies{
+padding:100px 0 70px;
+overflow:hidden;
+}
+
+.company-title{
+text-align:center;
+letter-spacing:6px;
+font-size:15px;
+font-weight:700;
+color:#FFC801;
+margin-bottom:55px;
+}
+
+.marquee{
+overflow:hidden;
+position:relative;
+}
+
+.marquee-track{
+display:flex;
+width:max-content;
+animation:scroll 25s linear infinite;
+}
+
+.company{
+font-size:60px;
+font-weight:700;
+font-family:"JetBrains Mono",monospace;
+color:rgba(255,255,255,.25);
+padding:0 70px;
+white-space:nowrap;
+transition:.3s;
+}
+
+.company:hover{
+color:#FFC801;
+transform:scale(1.08);
+}
+
+@keyframes scroll{
+
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(-50%);
+}
+
+}

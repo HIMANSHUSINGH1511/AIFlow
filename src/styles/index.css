@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap");
+@import "tailwindcss";
+
+:root{
+
+--bg:#0A1720;
+--card:#102431;
+--primary:#FFC801;
+--secondary:#FF9932;
+
+--text:#F1F6F4;
+--muted:#B7C2C8;
+
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:'Inter',sans-serif;
+
+background:
+radial-gradient(circle at top right,#1c4053 0%,#0A1720 40%),
+#0A1720;
+
+color:var(--text);
+
+overflow-x:hidden;
+
+}
+
+h1,h2,h3,h4{
+
+font-family:'JetBrains Mono',monospace;
+
+}
+
+.container{
+
+max-width:1350px;
+
+margin:auto;
+
+padding:0 32px;
+
+}
+
+section{
+
+padding:110px 0;
+
+}
+
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
+button{
+
+cursor:pointer;
+
+transition:.2s ease;
+
+}
+
+button:hover{
+
+transform:translateY(-4px);
+
+}
+
+button:active{
+
+transform:scale(.96);
+
+}
+
+.card:hover,
+.price-card:hover,
+.testimonial-card:hover{
+
+box-shadow:0 30px 60px rgba(0,0,0,.25);
+
+}
+
+.light-mode{
+
+background:white;
+
+color:#172B36;
+
+transition:.4s;
+
+}
+
+.light-mode .navbar{
+
+background:rgba(255,255,255,.8);
+
+}
+
+.light-mode .card,
+.light-mode .price-card,
+.light-mode .testimonial-card,
+.light-mode .dashboard{
+
+background:#f4f4f4;
+
+color:#172B36;
+
+}
+
+.light-mode .subtitle,
+.light-mode .review{
+
+color:#555;
+
+}

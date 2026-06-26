@@ -1,0 +1,28 @@
+#contact{
+padding:140px 0;
+}
+
+.contact{
+text-align:center;
+background:rgba(255,255,255,.05);
+padding:80px;
+border-radius:30px;
+}
+
+.contact h2{
+font-size:54px;
+margin-bottom:25px;
+}
+
+.contact p{
+color:#bbb;
+margin-bottom:40px;
+}
+
+.contact button{
+padding:18px 45px;
+border:none;
+border-radius:15px;
+background:linear-gradient(135deg,#FFC801,#FF9932);
+font-weight:700;
+}
