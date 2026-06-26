@@ -1,16 +1,188 @@
-# React + Vite
+# 🤖 AIFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Automate Your Business With Next-Gen AI
 
-Currently, two official plugins are available:
+AIFlow is a modern AI SaaS landing page built with React and Vite. It features a premium dark UI, responsive design, animated components, theme switching, pricing section, testimonials, contact form, and EmailJS integration for demo requests.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://ai-flow-rouge.vercel.app
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+- Modern SaaS Landing Page
+- Responsive Design
+- Dark / Light Theme Toggle
+- Smooth Scrolling Navigation
+- Active Navbar Links
+- Animated Hero Section
+- Animated Statistics Counter
+- Feature Cards
+- Pricing Plans
+- Customer Testimonials
+- Contact CTA Section
+- Book Demo Modal
+- EmailJS Integration
+- Scroll Animations (AOS)
+- Clean UI/UX
+- Mobile Friendly
+- Vercel Deployment
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- CSS3
+
+### Libraries
+
+- AOS (Animate On Scroll)
+- EmailJS
+- React Hooks
+
+### Deployment
+
+- Vercel
+
+---
+
+## 📂 Folder Structure
+
+src/
+│
+├── components/
+│ ├── Navbar/
+│ ├── Hero/
+│ ├── Features/
+│ ├── Pricing/
+│ ├── Reviews/
+│ ├── ContactCTA/
+│ ├── Footer/
+│ ├── DemoModal/
+│ └── ThemeToggle/
+│
+├── hooks/
+│ └── useCounter.js
+│
+├── App.jsx
+└── main.jsx
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/HIMANSHUSINGH1511/AIFlow.git
+```
+
+Move into project
+
+```bash
+cd AIFlow
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run project
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+## 🏠 Hero Section
+
+<p align="center">
+  <img src="./public/Hero.png" width="900">
+</p>
+
+---
+
+## ✨ Features
+
+<p align="center">
+  <img src="./public/features.png" width="900">
+</p>
+
+---
+
+## 💰 Pricing
+
+<p align="center">
+  <img src="./public/pricing.png" width="900">
+</p>
+
+---
+
+## 📩 Demo Modal
+
+<p align="center">
+  <img src="./public/modal.png" width="450">
+</p>
+
+---
+
+## 📧 Contact Form
+
+The contact form is powered by **EmailJS**.
+
+Users can:
+
+- Enter their details
+- Request a demo
+- Receive confirmation instantly
+- Send information directly to the admin email
+
+---
+
+## 🎯 Future Improvements
+
+- Authentication
+- Dashboard
+- AI Chatbot
+- Analytics Dashboard
+- Blog Section
+- Multi-language Support
+- Stripe Payments
+- Admin Panel
+
+---
+
+## 👨‍💻 Developer
+
+**Himanshu Singh**
+
+GitHub
+
+https://github.com/HIMANSHUSINGH1511
+
+LinkedIn
+
+(Add your LinkedIn profile)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you like this project, don't forget to star the repository.
