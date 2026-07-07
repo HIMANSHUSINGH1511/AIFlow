@@ -175,7 +175,7 @@ https://github.com/HIMANSHUSINGH1511
 
 LinkedIn
 
-(Add your LinkedIn profile)
+www.linkedin.com/in/himanshu-singh-a7738b380
 
 ---
 
